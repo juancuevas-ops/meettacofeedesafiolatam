@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--en este segmento de codigo agregamos css al html-->
+
+<body background="fondocristiano.jpg">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página web Cristo Vive</title>
+        <link rel="stylesheet" href="estilos.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+
+    <body>
+        <html>
+
+        <!--El elemento de HTML Header (<header>) representa un grupo de ayudas introductorias o de 
+                 navegación. Puede contener algunos elementos de encabezado, así como también un logo, un
+                  formulario de búsqueda, un nombre de autor y otros componentes.-->
+
+        <header class="header" id="inicio">
+            <img class="hamburguer" src="img/hamburguesa.svg" alt="">
+            <nav class="menu-navegacion">
+                <!--El elemento HTML <nav> representa una sección de una página cuyo propósito es proporcionar enlaces de navegación, ya sea dentro del documento actual o a otros documentos. Ejemplos comunes de secciones de navegación son menús, tablas de contenido e índices.-->
+                <a href="#inicio">Inicio</a>
+                <!--El elemento HTML anchor <a> permite crear un enlace a otras páginas de internet, archivos o rutas dentro de la misma página, direcciones de correo, o cualquier otra URL.-->
+                <a href="#servicio">Oracion</a>
+                <a href="#galeria">Predicaciones</a>
+                <a href="#expertos">Testimonios</a>
+                <a href="#footer">Contacto</a>
+                <!--El atributo global class es una lista de las clases del elemento separada por espacios . Las clases permiten a CSS y Javascript seleccionar y acceder a elementos específicos a través de los selectores de clase o funciones como el método document-->
+            </nav>
+            <div class="contenedor head">
+                <h1 class="titulo">QUEREMOS ORAR POR TU PETICION</h1>
+                <h1>PREDICADORES PLAZA DE ARMAS 2022</h1>
+                <p class="copy">SOMOS UN GRUPO DE HOMBRE Y MUJERES QUE PREDICA EN LA PALAZA DE ARMAS CHILE</p>
+                <!--La etiqueta <p> en HTML define un párrafo. Estas tienen etiqueta de apertura y cierre. ... La mayoría de los navegadores leen una línea como un párrafo, incluso si no usamos la etiqueta de cierre, es decir, </p>, pero esto puede generar resultados inesperados al momento de la visualización.-->
+            </div>
+            <!--El elemento HTML <main> representa el contenido principal del <body> de un documento o aplicación. El área principal del contenido consiste en el contenido que está directamente relacionado, o se expande sobre el tema central de un documento o la funcionalidad central de una aplicación-->
+
+        </header>
+        <main>
+            <section class="services contenedor" id="servicio">
+                <!--El elemento de HTML section (<section>) representa una sección genérica de un documento. Sirve para determinar qué contenido corresponde a qué parte de un esquema. Piensa en el esquema como en el índice de contenido de un libro; un tema común y subsecciones relacionadas.  Es, por lo tanto, una etiquéta semántica. Su funcionalidad principal es estructurar semánticamente un documento-->
+                <h2 class="subtitulo">Oracion</h2>
+                <div class="contenedor-servicio">
+                    <img src="img/checklist.svg" alt="">
+                    <div class="checklist-servicio">
+                        <div class="service">
+                            <h3 class="n-service"><span class="number">1</span>Oracion por Los Enfermos Marcos 16: 17-18</h3>
+                            <p> Y estas señales seguirán a los que creen: En mi nombre echarán fuera demonios; hablarán nuevas lenguas; 18 tomarán en las manos serpientes, y si bebieren cosa mortífera, no les hará daño; sobre los enfermos pondrán sus manos,
+                                y sanarán.</p>
+                        </div>
+                        <div class="service">
+                            <h3 class="n-service"><span class="number">2</span>Oracion Por Liberacion Galatas 5: 1</h3>
+                            <p> Estad, pues, firmes en la libertad con que Cristo nos hizo libres, y no estéis otra vez sujetos al yugo de esclavitud..</p>
+                        </div>
+                        <div class="service">
+                            <h3 class="n-service"><span class="number">3</span>Oracion Por Fortaleza 2 Corintios 1: 3-4</h3>
+                            <p> Bendito sea el Dios y Padre de nuestro Señor Jesucristo, Padre de misericordias y Dios de toda consolación, el cual nos consuela en todas nuestras tribulaciones, para que podamos también nosotros consolar a los que están en
+                                cualquier tribulación, por medio de la consolación con que nosotros somos consolados por Dios..</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="gallery" id="galeria">
+                <div class="contenedor">
+                    <h2 class="subtitulo">Predicadores</h2>
+                    <div class="contenedor-galeria">
+                        <img src="img/IMG_1.jpg" class="img-galeria" alt="Hola">
+                        <img src="img/IMG_2.jpg" class="img-galeria" alt="">
+                        <img src="img/IMG_3.jpg" class="img-galeria" alt="">
+                        <img src="img/IMG_4.jpg" class="img-galeria" alt="">
+                        <img src="img/IMG_5.jpg" class="img-galeria" alt="">
+                        <img src="img/IMG_6.jpg" class="img-galeria" alt="">
+                    </div>
+                </div>
+            </section>
+            <div class="imagen-light">
+                <img src="img/close.svg" alt="" class="close">
+                <img src="" alt="" class="agregar-imagen">
+            </div>
+            <section class="contenedor" id="expertos">
+                <h2 class="subtitulo">Testimonios </h2>
+                <section class="experts">
+                    <div class="cont-expert">
+                        <img src="img/IMG_ale.jpg" alt="">
+                        <h3 class="n-expert">Evangelista Juan Cuevas </h3>
+                    </div>
+                    <div class="cont-expert">
+                        <img src="img/IMG_andres.jpg" alt="">
+                        <h3 class="n-expert">Evangelista Andres Quezada</h3>
+                    </div>
+                    <div class="cont-expert">
+                        <img src="img/IMG_juanpablo.jpg" alt="">
+                        <h3 class="n-expert">Evangelista Juan Pablo</h3>
+                    </div>
+                </section>
+            </section>
+        </main>
+
+        <footer id="footer">
+            <div class="contenedor footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">Evangelistas de plaza de Armas Santiago Chile 2022</h2>
+                    <p>Cristo Murio por Ti en La Cruz del Calvario</p>
+                    <P>Pagina Web Creada por Juan Cuevas Vasquez fono +56932004812 </P>
+
+                    <p>DIRECCION GOOGLE MAPS</p>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.4400760168787!2d-70.65266828509198!3d-33.43783940425064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5a390957307%3A0xef87ffe6bed7c7!2sPlaza%20de%20Armas!5e0!3m2!1ses!2scl!4v1639712630758!5m2!1ses!2scl"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/juancuevasevangelista/" class="social-media-icon">
+                        <i class='bx bxl-facebook'></i>
+
+                    </a>
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                </div>
+            </div>
+            <div class="line"></div>
+        </footer>
+        <script src="js/menu.js"></script>
+        <script src="js/lightbox.js"></script>
+    </body>
+
+    </html>
